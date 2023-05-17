@@ -1,0 +1,8 @@
+.nav-link {
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.nav-link.active, .nav-link:hover {
+  color: #f11133;
+}

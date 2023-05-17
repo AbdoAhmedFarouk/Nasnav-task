@@ -1,0 +1,9 @@
+.old-price {
+  color: #a7a9ac;
+  text-decoration: line-through;
+}
+
+.sale {
+  background-color: var(--primary-color);
+  border-radius: 5px;
+}

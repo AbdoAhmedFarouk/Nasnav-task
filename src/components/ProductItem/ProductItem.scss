@@ -1,0 +1,26 @@
+.img-box {
+  .rotate {
+    left: 10px;
+    background: #fff;
+    top: 10px;
+  }
+}
+.info-content {
+  .price {
+    color: var(--secondary-color);
+    &::before {
+      content: "LE";
+      position: absolute;
+      font-size: 16px;
+      bottom: 0;
+      right: -25px;
+    }
+  }
+  .old-price {
+    color: #a7a9ac;
+    font-size: 16px;
+  }
+  .sale {
+    background-color: var(--primary-color);
+  }
+}

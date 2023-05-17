@@ -1,0 +1,8 @@
+.nav-link {
+  cursor: pointer;
+  transition: 0.3s;
+  &.active,
+  &:hover {
+    color: #f11133;
+  }
+}

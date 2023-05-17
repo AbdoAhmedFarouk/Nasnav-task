@@ -1,0 +1,33 @@
+.header {
+  background-color: var(--primary-color);
+  .shop-now,
+  .contact-box span,
+  img {
+    cursor: pointer;
+  }
+}
+.middle-header {
+  .search-box {
+    border: 1px solid #d8d8d8;
+    padding: 10px 200px 10px 10px;
+    border-radius: 30px;
+  }
+  .brand-box img {
+    width: 80px;
+    height: 80px;
+  }
+  .bag-box .counter {
+    position: absolute;
+    right: 35px;
+    font-size: 10px;
+    top: -5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+  }
+  img,
+  span:not(.search) {
+    cursor: pointer;
+  }
+}

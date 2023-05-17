@@ -1,0 +1,124 @@
+.sections {
+  padding: 20px 0;
+  border-bottom: 1px solid #575756;
+}
+.sections span {
+  cursor: pointer;
+  color: #1d1d1b;
+}
+.sections span:hover {
+  text-decoration: underline;
+}
+
+.product .product-box .rotate {
+  z-index: 100;
+  left: 100px;
+  cursor: pointer;
+  top: 40px;
+}
+.product .product-box .product-img {
+  width: 550px;
+  height: 700px;
+}
+.product .more-imgs img {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+.product .more-imgs .arr-1,
+.product .more-imgs .arr-2 {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.product .product-info {
+  border-bottom: 0.5px solid #d9d9d9;
+}
+.product .product-info .rates {
+  color: #575756;
+}
+.product .product-info .price span:first-child {
+  color: var(--secondary-color);
+}
+.product .product-info .price span:first-child::before {
+  content: "LE";
+  position: absolute;
+  font-size: 22px;
+  bottom: 0;
+  right: -30px;
+}
+.product .product-size {
+  border-bottom: 0.5px solid #d9d9d9;
+}
+.product .product-size .size span {
+  border: 1px solid var(--secondary-color);
+  border-radius: 50%;
+  padding: 20px;
+  color: var(--secondary-color);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.product .product-size .size span.active {
+  color: black;
+  background-color: #ececec;
+  border: none;
+}
+.product .product-size .size span:hover {
+  color: black;
+  background-color: #ececec;
+}
+.product .product-color {
+  border-bottom: 0.5px solid #d9d9d9;
+}
+.product .product-color img {
+  border: 1px solid var(--secondary-color);
+  width: 90px;
+  height: 90px;
+}
+.product .product-quantity .quantity-counter {
+  border-radius: 50px;
+  width: 50%;
+  background: #f5f5f5;
+}
+.product .product-quantity .quantity-counter span:nth-child(2) {
+  color: var(--secondary-color);
+}
+.product .product-quantity .increment,
+.product .product-quantity .decrement {
+  background-color: var(--primary-color);
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.product .btns button {
+  padding: 0 60px;
+  height: 60px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+}
+.product .btns button:first-of-type {
+  background-color: var(--secondary-color);
+}
+.product .btns button:last-child {
+  background-color: var(--primary-color);
+}

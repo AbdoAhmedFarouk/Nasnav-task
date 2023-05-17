@@ -1,0 +1,45 @@
+.footer {
+  background: #3c3c3b;
+  margin-top: 60px;
+  .row {
+    border-bottom: 0.25px solid #868686;
+    width: 100%;
+    .left-col {
+      border-right: 0.25px solid #868686;
+    }
+    .links {
+      border-right: 0.25px solid #868686;
+      padding-right: 180px;
+      ul li a {
+        cursor: pointer;
+      }
+    }
+    .socials span {
+      cursor: pointer;
+    }
+    form {
+      display: flex;
+      input {
+        width: 100%;
+        border: none;
+        outline: none;
+        &::placeholder {
+          color: var(--secondary-color);
+        }
+      }
+      button {
+        right: 7px;
+        border: none;
+        top: 50%;
+        transform: translateY(-50%);
+        width: fit-content;
+        padding: 10px 20px;
+        background: var(--primary-color);
+        font-size: 15px;
+      }
+    }
+  }
+  .owner .cash img {
+    cursor: pointer;
+  }
+}
